@@ -4,6 +4,8 @@ interface IApp {
   text: string;
 }
 
-const App = ({ text }: IApp) => <div>{text}</div>;
+function App({ text }: IApp) {
+  return <div>{text}a</div>;
+}
 
 export default App;

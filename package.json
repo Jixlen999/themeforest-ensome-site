@@ -52,7 +52,7 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "src/**/*.{ts, tsx}": [
+    "*.{ts,tsx}": [
       "npm run lint",
       "npm run format"
     ]
