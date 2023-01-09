@@ -1,6 +1,6 @@
 import React from 'react';
 import Backdrop from '@mui/material/Backdrop';
-import ReactPlayer from 'react-player/lazy';
+// import ReactPlayer from 'react-player/lazy';
 
 import { BsPlayCircle } from 'react-icons/bs';
 import logo_blue from '../../assets/logo_blue.png';
@@ -38,14 +38,14 @@ const Header = () => {
 
       <VideoPlayer>
         <Backdrop sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }} open={open} onClick={handleClose}>
-          <ReactPlayer
+          {/* <ReactPlayer
             url="https://www.youtube.com/watch?v=gmp0istg5xo&ab_channel=Honeypot"
             width="800px"
             height="500px"
             playing={open}
             controls
             fallback={<p>Loading...</p>}
-          />
+          /> */}
         </Backdrop>
       </VideoPlayer>
     </Wrapper>
