@@ -13,7 +13,7 @@
   "plugins": ["react", "@typescript-eslint", "prettier"],
   "rules": {
     "linebreak-style": ["error", "windows"],
-    "react/function-component-definition": "off" //Disabled to make it possible to use arrow functions for creating functional components
+    "react/function-component-definition": "off" // Disabled to make it possible to use arrow functions for creating functional components
   },
   "settings": {
     "import/resolver": {

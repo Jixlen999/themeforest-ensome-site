@@ -1,14 +1,10 @@
 {
   "compilerOptions": {
-    "baseUrl": "./src",
     "target": "es2017",
     "module": "commonJS",
     "strictNullChecks": true,
     "esModuleInterop": true,
-    "jsx": "react-jsx",
-    "paths": {
-      "@components/*": ["src/components/*"]
-    }
+    "jsx": "react-jsx"
   },
   "include": ["src"],
   "extends": "./tsconfig.paths.json"

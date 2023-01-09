@@ -1,11 +1,13 @@
 import React from 'react';
 
-interface IApp {
-  text: string;
-}
+import Header from '@components/Header';
 
-function App({ text }: IApp) {
-  return <div>{text}a</div>;
-}
+import AppWrapper from './styled';
+
+const App = () => (
+  <AppWrapper>
+    <Header />
+  </AppWrapper>
+);
 
 export default App;
