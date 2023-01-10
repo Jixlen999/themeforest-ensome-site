@@ -3,7 +3,7 @@ import React from 'react';
 import { BsPlayCircle } from 'react-icons/bs';
 import logo_blue from '@assets/logo_blue.png';
 import menuItems from '@constants/menuItems';
-import Player from '@components/Player';
+// import Player from '@components/Player';
 
 import { Wrapper, Content, Logo, Menu, DemoButton, MenuItem, DemoIcon, DemoText } from './styled';
 
@@ -28,7 +28,7 @@ const Header = () => {
             <BsPlayCircle />
           </DemoIcon>
           <DemoText>Watch the demo</DemoText>
-          <Player open={open} setOpen={setOpen} />
+          {/* <Player open={open} setOpen={setOpen} /> */}
         </DemoButton>
       </Content>
     </Wrapper>

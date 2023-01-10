@@ -15,4 +15,5 @@ module.exports = merge(webpackConfig, {
     compress: true,
     historyApiFallback: true,
   },
+  devtool: 'source-map',
 });

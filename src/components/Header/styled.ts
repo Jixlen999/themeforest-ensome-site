@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled.div`
-  width: ${({ theme }) => theme.width[1920]}px;
   height: ${({ theme }) => theme.height[126]}px;
   background: ${({ theme }) => theme.colors.background};
   display: flex;
@@ -76,5 +75,3 @@ export const DemoText = styled.p`
   font-size: ${({ theme }) => theme.fontSize[14]}px;
   font-weight: ${({ theme }) => theme.fontWeight[600]};
 `;
-
-export const VideoPlayer = styled.div``;

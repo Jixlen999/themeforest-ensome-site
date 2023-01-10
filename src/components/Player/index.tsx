@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactPlayer from 'react-player/lazy';
+import ReactPlayer from 'react-player/youtube';
 import Backdrop from '@mui/material/Backdrop';
 
 import VideoPlayer from './styled';
@@ -10,7 +10,7 @@ const Player = ({ open, setOpen }: { open: boolean; setOpen: React.Dispatch<Reac
   };
   return (
     <VideoPlayer>
-      <Backdrop sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1 }} open={open} onClick={handleClose}>
+      <Backdrop open={open} onClick={handleClose}>
         <ReactPlayer
           url="https://www.youtube.com/watch?v=gmp0istg5xo&ab_channel=Honeypot"
           playing={open}
