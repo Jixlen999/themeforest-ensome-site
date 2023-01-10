@@ -3,13 +3,15 @@ import React from 'react';
 import HeroSection from '@components/HeroSection';
 import FeaturesSection from '@src/components/FeaturesSection';
 import CompanyOverviewSection from '@src/components/CompanyOverviewSection';
+import BenefitsSection from '@src/components/BenefitsSection';
 
 const HomePage = () => (
-  <div>
+  <>
     <HeroSection />
     <FeaturesSection />
     <CompanyOverviewSection />
-  </div>
+    <BenefitsSection />
+  </>
 );
 
 export default HomePage;
