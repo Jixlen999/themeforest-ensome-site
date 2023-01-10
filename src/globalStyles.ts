@@ -5,6 +5,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    letter-spacing: -0.015em;
   }
 `;
 
