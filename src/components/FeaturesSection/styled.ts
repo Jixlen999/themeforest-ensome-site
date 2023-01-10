@@ -9,7 +9,6 @@ export const Wrapper = styled.div`
 `;
 export const TextContainer = styled.div`
   width: ${({ theme }) => theme.width[1110]}px;
-  height: ${({ theme }) => theme.height[120]}px;
   margin: ${({ theme }) => theme.margin[120]}px 0;
   display: flex;
   justify-content: space-between;

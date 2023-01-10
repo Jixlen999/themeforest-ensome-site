@@ -8,7 +8,6 @@ export const Wrapper = styled.div`
 `;
 export const TextContainer = styled.div`
   width: ${({ theme }) => theme.width[1110]}px;
-  height: ${({ theme }) => theme.height[120]}px;
   margin-top: ${({ theme }) => theme.margin[75]}px;
   display: flex;
   justify-content: space-between;
