@@ -77,7 +77,4 @@ export const DemoText = styled.p`
   font-weight: ${({ theme }) => theme.fontWeight[600]};
 `;
 
-export const VideoPlayer = styled.div`
-  width: 100px;
-  height: 100px;
-`;
+export const VideoPlayer = styled.div``;

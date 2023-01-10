@@ -13,7 +13,8 @@
   "plugins": ["react", "@typescript-eslint", "prettier"],
   "rules": {
     "linebreak-style": ["error", "windows"],
-    "react/function-component-definition": "off" // Disabled to make it possible to use arrow functions for creating functional components
+    "react/function-component-definition": "off", // Disabled to make it possible to use arrow functions for creating functional components
+    "react/no-array-index-key": "off" // Disabled to make it possible to use index as key prop for static array items
   },
   "settings": {
     "import/resolver": {
@@ -23,9 +24,7 @@
           "@components": "./src/components",
           "@pages": "./src/pages",
           "@constants": "./src/constants",
-          "@store": "./src/store",
-          "@utils": "./src/utils",
-          "@hooks": "./src/hooks"
+          "@assets": "./src/utils"
         },
         "extensions": [".js", ".jsx", "ts", "tsx"]
       }
