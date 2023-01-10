@@ -27,7 +27,7 @@ export const Title = styled.h1`
   }
 `;
 
-export const TextAndButton = styled.p`
+export const TextAndButton = styled.div`
   display: flex;
   flex-direction: column;
 `;
