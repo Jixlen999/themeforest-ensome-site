@@ -13,13 +13,6 @@ module.exports = {
       'styled-components': path.resolve('./node_modules/styled-components/'),
     },
   },
-  // externals: {
-  //   'styled-components': {
-  //     commonjs: 'styled-components',
-  //     commonjs2: 'styled-components',
-  //     amd: 'styled-components',
-  //   },
-  // },
   module: {
     rules: [
       {
