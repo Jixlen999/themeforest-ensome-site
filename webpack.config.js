@@ -10,8 +10,16 @@ module.exports = {
       '@pages': path.resolve(__dirname, 'src/pages/'),
       '@constants': path.resolve(__dirname, 'src/constants/'),
       '@assets': path.resolve(__dirname, 'src/assets/'),
+      'styled-components': path.resolve('./node_modules/styled-components/'),
     },
   },
+  // externals: {
+  //   'styled-components': {
+  //     commonjs: 'styled-components',
+  //     commonjs2: 'styled-components',
+  //     amd: 'styled-components',
+  //   },
+  // },
   module: {
     rules: [
       {
@@ -31,6 +39,10 @@ module.exports = {
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/,
         type: 'asset/resource',
+      },
+      {
+        test: /\.css$/i,
+        use: ['style-loader', 'css-loader'],
       },
     ],
   },
