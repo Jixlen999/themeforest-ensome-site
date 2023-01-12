@@ -36,6 +36,7 @@ export const Text = styled.p`
 `;
 
 export const ImageContainer = styled.div`
+  position: relative;
   margin-top: ${({ theme }) => theme.margin[90]}px;
   width: inherit;
   height: ${({ theme }) => theme.height[590]}px;
@@ -43,4 +44,10 @@ export const ImageContainer = styled.div`
 
 export const HeroImage = styled.img`
   object-fit: contain;
+`;
+
+export const RoundButtonContainer = styled.div`
+  position: absolute;
+  top: -80px;
+  right: 600px;
 `;

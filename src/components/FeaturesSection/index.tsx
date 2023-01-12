@@ -30,7 +30,7 @@ const FeaturesSection = () => {
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
             aperiam, eaque ipsa quae ab illo inventore veritatis etquasi architecto beatae vitae dicta sunt explicabo.
           </Text>
-          <Button text="Discover more" onClick={() => count + 1} />
+          <Button width={theme.width[185]} height={theme.height[54]} text="Discover more" onClick={() => count + 1} />
         </TextAndButton>
       </TextContainer>
       <SolutionContainer>
@@ -45,7 +45,7 @@ const FeaturesSection = () => {
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem
             aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
           </Text>
-          <Button width={theme.width[185]} text="Learn more" onClick={() => count + 1} />
+          <Button width={theme.width[185]} height={theme.height[54]} text="Learn more" onClick={() => count + 1} />
         </Description>
       </SolutionContainer>
     </Wrapper>

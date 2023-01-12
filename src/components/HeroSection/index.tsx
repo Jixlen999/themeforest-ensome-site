@@ -1,7 +1,8 @@
 import React from 'react';
 import hero_img from '@assets/hero_img.png';
+import { RoundButton } from 'themeforest-lib';
 
-import { HeroImage, ImageContainer, Text, TextContainer, Title, Wrapper } from './styled';
+import { HeroImage, ImageContainer, Text, TextContainer, Title, Wrapper, RoundButtonContainer } from './styled';
 
 const HeroSection = () => (
   <Wrapper>
@@ -15,6 +16,9 @@ const HeroSection = () => (
       </Text>
     </TextContainer>
     <ImageContainer>
+      <RoundButtonContainer>
+        <RoundButton size={140} text="Learn more" fontSize={14} fontWeight={600} />
+      </RoundButtonContainer>
       <HeroImage src={hero_img} />
     </ImageContainer>
   </Wrapper>

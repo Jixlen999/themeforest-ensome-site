@@ -42,24 +42,24 @@ export const Text = styled.p`
   margin-bottom: ${({ theme }) => theme.margin[30]}px;
 `;
 
-export const Button = styled.div`
-  width: ${({ theme }) => theme.width[185]}px;
-  height: ${({ theme }) => theme.height[54]}px;
-  border-radius: ${({ theme }) => theme.borderRadius[6]}px;
-  background-color: ${({ theme }) => theme.colors.primary};
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: ${({ theme }) => theme.gap[10]}px;
-  color: ${({ theme }) => theme.colors.white};
-  cursor: pointer;
-  transition: ${({ theme }) => theme.transition};
-  box-shadow: ${({ theme }) => theme.shadows.button};
-  &:hover {
-    background-color: ${({ theme }) => theme.colors.hoverBlue};
-  }
-`;
+// export const Button = styled.div`
+//   width: ${({ theme }) => theme.width[185]}px;
+//   height: ${({ theme }) => theme.height[54]}px;
+//   border-radius: ${({ theme }) => theme.borderRadius[6]}px;
+//   background-color: ${({ theme }) => theme.colors.primary};
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: center;
+//   align-items: center;
+//   gap: ${({ theme }) => theme.gap[10]}px;
+//   color: ${({ theme }) => theme.colors.white};
+//   cursor: pointer;
+//   transition: ${({ theme }) => theme.transition};
+//   box-shadow: ${({ theme }) => theme.shadows.button};
+//   &:hover {
+//     background-color: ${({ theme }) => theme.colors.hoverBlue};
+//   }
+// `;
 export const ButtonText = styled.p`
   font-family: ${({ theme }) => theme.fontFamily.Manrope};
   font-weight: ${({ theme }) => theme.fontWeight[700]};

@@ -12,7 +12,6 @@ export const Content = styled.div`
   width: ${({ theme }) => theme.width[1110]}px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   height: ${({ theme }) => theme.height[46]}px;
 `;
 
@@ -31,6 +30,7 @@ export const Menu = styled.nav`
   font-size: ${({ theme }) => theme.fontSize[14]}px;
   font-weight: ${({ theme }) => theme.fontWeight[500]};
   color: ${({ theme }) => theme.colors.grey};
+  margin: 0 ${({ theme }) => theme.margin[145]}px;
 `;
 
 export const MenuItem = styled.div`
@@ -39,39 +39,4 @@ export const MenuItem = styled.div`
   &:hover {
     color: ${({ theme }) => theme.colors.black};
   }
-`;
-
-export const DemoButton = styled.div`
-  width: 168px;
-  height: 44px;
-  border-radius: 6px;
-  background-color: ${({ theme }) => theme.colors.primary};
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  color: ${({ theme }) => theme.colors.white};
-  cursor: pointer;
-  transition: ${({ theme }) => theme.transition};
-  box-shadow: ${({ theme }) => theme.shadows.button};
-  &:hover {
-    background-color: ${({ theme }) => theme.colors.hoverBlue};
-  }
-`;
-
-export const DemoIcon = styled.div`
-  display: flex;
-  align-items: center;
-  svg {
-    margin: 0;
-    width: 24px;
-    height: 24px;
-  }
-`;
-
-export const DemoText = styled.p`
-  font-family: ${({ theme }) => theme.fontFamily.Manrope};
-  font-size: ${({ theme }) => theme.fontSize[14]}px;
-  font-weight: ${({ theme }) => theme.fontWeight[600]};
 `;
