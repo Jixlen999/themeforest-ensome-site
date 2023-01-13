@@ -5,6 +5,7 @@ import FeaturesSection from '@src/components/FeaturesSection';
 import CompanyOverviewSection from '@src/components/CompanyOverviewSection';
 import BenefitsSection from '@src/components/BenefitsSection';
 import TestimonialsSection from '@src/components/TestimonialsSection';
+import Footer from '@src/components/Footer';
 
 const HomePage = () => (
   <>
@@ -13,6 +14,8 @@ const HomePage = () => (
     <CompanyOverviewSection />
     <BenefitsSection />
     <TestimonialsSection />
+
+    <Footer />
   </>
 );
 

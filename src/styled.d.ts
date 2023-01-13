@@ -32,6 +32,12 @@ declare module 'styled-components' {
     borderRadius: {
       [index: number]: number;
     };
+    border: {
+      [index: number]: number;
+    };
+    top: {
+      [index: string]: number;
+    };
 
     transition: string;
     colors: {
