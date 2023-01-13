@@ -40,3 +40,7 @@ export const MenuItem = styled.div`
     color: ${({ theme }) => theme.colors.black};
   }
 `;
+
+export const PlayerContainer = styled.div`
+  z-index: 100;
+`;

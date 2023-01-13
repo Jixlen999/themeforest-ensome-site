@@ -1,35 +1,16 @@
-/* eslint-disable react/jsx-no-constructed-context-values */
-/* eslint-disable arrow-body-style */
-/* eslint-disable react/button-has-type */
 import React from 'react';
-import { IconContext } from 'react-icons';
-import { HiOutlineArrowNarrowRight, HiOutlineArrowNarrowLeft } from 'react-icons/hi';
+import { CardCarousel } from 'themeforest-lib';
 
-import { Card, Container, ControlButton, Controls, Title, TitleAndControls, Wrapper } from './styled';
+import cards from '@src/constants/testimonailsCards';
 
-const TestimonialsSection = () => {
-  const setts = { color: ' #002B4E', size: '30px' };
-  return (
-    <Wrapper>
-      <Container>
-        <TitleAndControls>
-          <Title>Testimonials</Title>
-          <Controls>
-            <IconContext.Provider value={setts}>
-              <ControlButton>
-                <HiOutlineArrowNarrowLeft />
-              </ControlButton>
-              <ControlButton>
-                <HiOutlineArrowNarrowRight />
-              </ControlButton>
-            </IconContext.Provider>
-          </Controls>
-        </TitleAndControls>
+import { Container, Wrapper } from './styled';
 
-        <Card>as</Card>
-      </Container>
-    </Wrapper>
-  );
-};
+const TestimonialsSection = () => (
+  <Wrapper>
+    <Container>
+      <CardCarousel title="Testimonials" cards={cards} />
+    </Container>
+  </Wrapper>
+);
 
 export default TestimonialsSection;

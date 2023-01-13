@@ -7,7 +7,7 @@ import logo_blue from '@assets/logo_blue.png';
 import menuItems from '@constants/menuItems';
 import Player from '@components/Player';
 
-import { Wrapper, Content, Logo, Menu, MenuItem } from './styled';
+import { Wrapper, Content, Logo, Menu, MenuItem, PlayerContainer } from './styled';
 
 const Header = () => {
   const theme = useTheme();
@@ -33,9 +33,11 @@ const Header = () => {
           height={theme.height[46]}
           icon={<BsPlayCircle />}
           fontSize={theme.fontSize[14]}
-          fontWight={theme.fontWeight[600]}
+          fontWeight={theme.fontWeight[600]}
         />
-        <Player open={open} setOpen={setOpen} />
+        <PlayerContainer>
+          <Player open={open} setOpen={setOpen} />
+        </PlayerContainer>
       </Content>
     </Wrapper>
   );

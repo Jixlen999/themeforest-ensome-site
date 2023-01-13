@@ -11,6 +11,7 @@ module.exports = {
       '@constants': path.resolve(__dirname, 'src/constants/'),
       '@assets': path.resolve(__dirname, 'src/assets/'),
       'styled-components': path.resolve('./node_modules/styled-components/'),
+      react: path.resolve('./node_modules/react/'),
     },
   },
   module: {
