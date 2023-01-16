@@ -1,15 +1,13 @@
 import React from 'react';
 import { CardCarousel } from 'themeforest-lib';
 
-import cards from '@src/constants/testimonailsCards';
+import cards from '@src/constants/testimonialsCards';
 
-import { Container, Wrapper } from './styled';
+import Wrapper from './styled';
 
 const TestimonialsSection = () => (
   <Wrapper>
-    <Container>
-      <CardCarousel title="Testimonials" cards={cards} />
-    </Container>
+    <CardCarousel title="Testimonials" cards={cards} />
   </Wrapper>
 );
 
