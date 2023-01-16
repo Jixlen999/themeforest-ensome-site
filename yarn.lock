@@ -5414,6 +5414,8 @@
 "themeforest-lib@file:../themeforest-lib":
   "resolved" "file:../themeforest-lib"
   "version" "1.0.6"
+  dependencies:
+    "react-icons" "^4.7.1"
 
 "through@^2.3.8":
   "integrity" "sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg=="

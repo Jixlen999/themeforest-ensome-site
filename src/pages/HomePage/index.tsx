@@ -1,11 +1,12 @@
 import React from 'react';
 
 import HeroSection from '@components/HeroSection';
-import FeaturesSection from '@src/components/FeaturesSection';
-import CompanyOverviewSection from '@src/components/CompanyOverviewSection';
-import BenefitsSection from '@src/components/BenefitsSection';
-import TestimonialsSection from '@src/components/TestimonialsSection';
-import Footer from '@src/components/Footer';
+import FeaturesSection from '@components/FeaturesSection';
+import CompanyOverviewSection from '@components/CompanyOverviewSection';
+import BenefitsSection from '@components/BenefitsSection';
+import TestimonialsSection from '@components/TestimonialsSection';
+import Footer from '@components/Footer';
+import ContactUsSection from '@src/components/ContactUsSection';
 
 const HomePage = () => (
   <>
@@ -15,6 +16,7 @@ const HomePage = () => (
     <BenefitsSection />
     <TestimonialsSection />
 
+    <ContactUsSection />
     <Footer />
   </>
 );

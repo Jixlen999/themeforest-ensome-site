@@ -8,6 +8,7 @@ const Player = ({ open, setOpen }: { open: boolean; setOpen: React.Dispatch<Reac
   const handleClose = () => {
     setOpen(false);
   };
+
   return (
     <VideoPlayer>
       <Backdrop open={open} onClick={handleClose}>
